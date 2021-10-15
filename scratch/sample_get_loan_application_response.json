@@ -1,0 +1,28 @@
+{
+    "guid": "a53f8662-dc2f-4b81-838b-5a665c7d8dcb",
+    "created_at": "2021-10-07T16:03:23Z",
+    "updated_at": "2021-10-07T16:03:26Z",
+    "active": true,
+    "loan_officer_guid": "e57c225d-e352-4a64-b29c-7aabe67ca50c",
+    "loan_guid": null,
+    "values": {
+        "custom_4008": "Individual",
+        "custom_4009": "Individual",
+        "borrower_voe_employment_is_current_1": true,
+        "borrower_has_voe_1": true,
+        "borrower_has_voe_2": true,
+        "coborrower_voe_employment_is_current_1": true,
+        "coborrower_has_voe_1": true,
+        "coborrower_has_voe_2": true,
+        "email": "lhester+tb-borrower-10-07-2021-1003@simplenexus.com",
+        "borrower_cell_phone": "6148868813",
+        "first_name": "Lee",
+        "last_name": "Hester",
+        "borrower_first_name": "Lee",
+        "borrower_last_name": "Hester",
+        "loan_purpose": "Purchase"
+    },
+    "submitted": false,
+    "submitted_at": null,
+    "borrowers": []
+}
