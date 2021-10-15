@@ -47,6 +47,9 @@ public class LoanApplication
   
     public static LoanApplication fromJson(String jsonData)
     {
+        // can't do something like:
+        // (LoanApplication)JSON.deserialize(json_data, LoanApplication.class);
+        // because "values" is a Map<String, Object> which can't be deserialized in a typed fashion
         Map<String, Object> m = (Map<String, Object>) JSON.deserializeUntyped(jsonData);
         LoanApplication loanApplication = new LoanApplication();
         loanApplication.guid = (String)m.get('guid');
